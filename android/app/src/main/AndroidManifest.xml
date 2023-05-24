@@ -37,9 +37,9 @@
     </queries>
 
     <application
-        android:name="卢融霜简历"
+        android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:label="my_resume">
+        android:label="卢融霜简历">
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
