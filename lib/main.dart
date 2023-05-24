@@ -123,7 +123,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
         designSize: const Size(360, 690),
-        builder: () =>
+        builder: (BuildContext context, Widget? child) =>
             Consumer<CurrentLocale>(builder: (context, currentLocale, child) {
               return Consumer<CurrentTheme>(
                   builder: (context, themeColor, child) {
@@ -143,7 +143,7 @@ class MyApp extends StatelessWidget {
 
                 return MaterialApp(
                   navigatorKey: navigatorKey,
-                  title: '简历lrsresume',
+                  title: '卢融霜简历',
                   theme: ThemeData(
                       fontFamily: "hk",
                       primaryColor: _themeColor,
