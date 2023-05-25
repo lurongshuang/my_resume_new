@@ -1,4 +1,4 @@
-const String hostImgHead = "http://baichao.jdysoft.cn/lrs_files/project_img/";
+const String hostImgHead = "http://baichao.jdysoft.cn/lrs_files/project_img";
 //我的简历
 ProjectBean myResumePj = ProjectBean(
     "我的简历",
@@ -330,21 +330,15 @@ ProjectBean bjgjwPj = ProjectBean(
 //水利造价题集
 ProjectBean slzjtjPj = ProjectBean(
     "水利工程造价题集",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/d450462e-0625-4e16-b595-c7ee6f3bfb7e.png",
+    "$hostImgHead/hyrc_zjtj/logo.png",
     '水利工程专业题型，等你来练习',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/6e5dc503-9107-4d5e-ac27-6df14c98e9c1.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/393759c2-f4db-4b6a-a433-4dffc1e333c9.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/b4ebb0ec-edca-4f3f-ab5f-c2c9ec75ab72.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/975010ae-23c6-4f51-bc3f-0f54b777307a.jpg",
-          "app")
+      ScreenBean("$hostImgHead/hyrc_zjtj/1.png", "app"),
+      ScreenBean("$hostImgHead/hyrc_zjtj/2.png", "app"),
+      ScreenBean("$hostImgHead/hyrc_zjtj/3.png", "app"),
+      ScreenBean("$hostImgHead/hyrc_zjtj/4.png", "app"),
+      ScreenBean("$hostImgHead/hyrc_zjtj/5.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_zjtj/6.jpeg", "app")
     ],
     [
       AppStores("华为应用市场", "assets/images/huawei.png",
@@ -362,27 +356,16 @@ ProjectBean slzjtjPj = ProjectBean(
 //水利职业培训
 ProjectBean slzypxPj = ProjectBean(
     "水利职业培训",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/01d16559-bd85-41cc-8267-ab09418a6f2f.png",
+    "$hostImgHead/hyrc_slpx/logo.png",
     '海川韵通',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/a42ceb8a-8772-4c0f-9d08-2545cf7aaf78.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/251a9db4-9043-4a81-a2a7-2452ad422eca.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/2a02e6f6-0230-4998-bec7-14d59956de83.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/7a913d7c-7112-4937-9fb0-74a704de7398.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/9f615483-6b7e-4780-8a32-a2add7c74844.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/f9e19e6e-d597-4fd5-b699-58c4c5d8e3f9.jpg",
-          "app")
+      ScreenBean("$hostImgHead/hyrc_slpx/1.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slpx/2.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slpx/3.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slpx/4.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slpx/5.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slpx/6.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slpx/7.jpeg", "app")
     ],
     [
       AppStores("H5", "assets/images/ic_h5.png",
@@ -400,33 +383,19 @@ ProjectBean slzypxPj = ProjectBean(
 //快刷题
 ProjectBean kstPj = ProjectBean(
     "快刷题",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/36828617-1008-4c03-92f9-bc8577190b1d.png",
+    "$hostImgHead/hyrc_kst/logo.png",
     '一款在线练习的题库，分为免费题库和付费题库，可进行在线刷题、搜索答案等。',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/e52fbe83-c025-461b-8f44-54f6e5550fef.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/090e7d09-0e6e-4e6b-9f97-70908514642b.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/fb698724-e1cb-4c10-b08c-a7e74760b344.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/a5bde62b-2af1-408f-97bc-959dcd7f7fdb.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/9a2fae42-77dc-42fb-838c-9074f68a395c.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/58ee4cce-94b3-4aef-a0b0-bee1e1081b03.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/90d3b679-8bac-46ea-aa95-900b2b610bc6.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/dab24cb5-1ff5-47d3-9bc6-3d9e979cd0f7.jpg",
-          "app")
+      ScreenBean("$hostImgHead/hyrc_kst/1.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/2.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/3.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/4.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/5.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/6.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/7.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/8.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/9.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_kst/10.jpeg", "app")
     ],
     [
       AppStores("华为应用市场", "assets/images/huawei.png",
@@ -453,42 +422,13 @@ ProjectBean kstPj = ProjectBean(
 //海天恒信官网
 ProjectBean hthxdPj = ProjectBean(
     "海天恒信PC官网",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/64ee5c5c-244f-494c-828a-8fc36e0acfc4.png",
+    "$hostImgHead/hyrc_hthx/logo.jpeg",
     '海纳百川恒久远，天容万物信无涯',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/85898f03-4577-4176-baba-9d603678ef4e.jpg",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/e3014045-7d18-43ce-b07f-769a66c79372.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/d4ed67bd-7d63-496e-953f-d2caa1c4b849.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/4c889a50-e4ab-4dcd-b0d1-9e1258830ebf.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/bbfb961d-6d8d-4e91-981b-f78c92a939d7.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c60181cd-5e23-4817-a1e8-125c3ff85084.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/d73d2fab-a9bd-407b-98c0-0485dc7d3ad2.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c3a2123b-df4c-43a9-99d0-1bf0bbf05102.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c8c3462c-e39e-449f-8e74-2594a63d0753.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/5130ea11-061b-447c-8350-8e461fae753a.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/7aff8a4f-a99f-4a6d-ada0-b6785e33b0b4.png",
-          "pc"),
+      ScreenBean("$hostImgHead/hyrc_hthx/1.jpeg", "pc"),
+      ScreenBean("$hostImgHead/hyrc_hthx/2.jpeg", "pc"),
+      ScreenBean("$hostImgHead/hyrc_hthx/3.jpeg", "pc"),
+      ScreenBean("$hostImgHead/hyrc_hthx/4.jpeg", "pc")
     ],
     [
       AppStores("H5", "assets/images/ic_h5.png",
@@ -502,21 +442,12 @@ ProjectBean hthxdPj = ProjectBean(
 //中国水利水电工程网
 ProjectBean slsdPj = ProjectBean(
     "中国水利水电工程网",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/bb83bf95-56df-44e3-b38d-56930719e74a.png",
-    '汇集水利招投标、机械设备、商品采买一站式服务平台。',
+    "$hostImgHead/hyrc_slsdgcw/logo.png",
+    '汇集水利招投标、机械设备、商品采买一站式服务平台。(新版已下线)',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/d8908dfe-4c75-4193-8c51-43c4072d8ffc.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/69f91b98-722c-4043-89d1-24c95cab00c4.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/8d44e3d0-6a10-411a-afa2-4ebb9011c33f.png",
-          "pc"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/2d71282e-ed85-4774-a849-4ae515207e5d.jpg",
-          "pc")
+      ScreenBean("$hostImgHead/hyrc_slsdgcw/1.png", "pc"),
+      ScreenBean("$hostImgHead/hyrc_slsdgcw/2.png", "pc"),
+      ScreenBean("$hostImgHead/hyrc_slsdgcw/3.jpeg", "app"),
     ],
     [
       AppStores("H5", "assets/images/ic_h5.png", "http://www.slsdgc.com.cn"),
@@ -529,42 +460,21 @@ ProjectBean slsdPj = ProjectBean(
 //会员服务系统
 ProjectBean hyfwPj = ProjectBean(
     "会员服务系统",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/e2d06899-2c7d-4a51-8eae-52ab5e8e4fd4.png",
+    "$hostImgHead/hyrc_hyfw/logo.png",
     '为"中国建设工程造价管理协会"用户提供服务',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/94037ee8-b2f1-4f41-8b11-8dfdc32d58e0.png",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/d3833f1d-7317-4861-a822-23467c75f8ca.png",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/8a476c49-5cd3-4ce4-9173-e5b6997e2089.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/269c9651-1c65-4392-876c-39ba3e8d7bef.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/3860e0ed-167b-4b39-9b59-19c6b67058d4.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/7fc5501a-b494-41ab-ba78-25fc8e0d6f8a.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/ae375224-b60f-45ca-875e-35b109bf4386.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/3352fedf-507d-42bd-8afd-94cd092b5c65.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/a1f9195d-cbf3-4246-bd85-cb54b6011dbe.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/f21c73d6-4cbc-489b-a9e6-6bf7ae7e69ab.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/58a4f5df-a761-49f8-82cc-153b97a5ebd0.jpg",
-          "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/1.png", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/2.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/3.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/4.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/5.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/6.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/7.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/8.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/9.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/10.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/11.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_hyfw/12.jpeg", "app"),
     ],
     [
       AppStores("华为应用市场", "assets/images/huawei.png",
@@ -589,33 +499,12 @@ ProjectBean hyfwPj = ProjectBean(
 //水利云播-云课堂直播
 ProjectBean slybPj = ProjectBean(
     "水利云播-云课堂直播",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/ae5eff60-9d75-464d-8e93-bda55fb481b4.png",
+    "$hostImgHead/hyrc_slyb/logo.jpeg",
     '"系列"云课堂"宣贯活动',
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/311515da-c334-47b8-a4ce-961e2f697fce.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/9edeaecf-7a4e-42d1-8089-35e31fcb16cc.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/bb5a59e1-0787-45d2-9384-85b2f7bcce7a.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/d67de5ce-3a20-4bd2-8d60-1550b6b9f09b.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/600deabf-24c1-428c-8867-b451407e97aa.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/ca9c3649-0023-4ab7-9178-ec6bc53f222e.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c7ef1393-cc51-45ef-a82c-60a991b5e0fb.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/a331d0ec-0c7a-45d0-8f8c-91f43c686057.jpg",
-          "app"),
+      ScreenBean("$hostImgHead/hyrc_slyb/1.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slyb/2.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_slyb/3.jpeg", "app")
     ],
     [AppStores("H5", "assets/images/ic_h5.png", "https://cms.slyunbo.com")],
     "   水利云播-教育平台，职业生涯管理系统，中观看直播功能，学员在指定时间进行预约直播，直播时间进行，观看视频；直播结束后，根据观看时长，给予学分，颁发证书。",
@@ -629,30 +518,18 @@ ProjectBean slybPj = ProjectBean(
 //辽宁水利信用
 ProjectBean lnslPj = ProjectBean(
     "辽宁水利信用",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/211639d7-5561-470d-8251-8b7055195ec6.png",
+    "$hostImgHead/hyrc_lnsl/logo.png",
     "告别打卡机，考勤信息随时掌控，让管理不在依赖说教。",
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/ba022d50-baea-4a9d-80ed-c9bce0426b59.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/47c1b942-ade2-4f90-add4-44171ce0a5d8.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/6e080785-3ad4-479d-b90b-3c943a9ee1e2.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/b638981a-066e-467b-bd76-8edafd7c3c8b.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/319630f9-26aa-4f76-ab0e-3aa25c89bbc3.png",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/f4ee5082-b657-482a-9da0-2ec2b4e37af1.png",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c51c20a1-1a7b-469f-a6f7-07e2ed603105.png",
-          "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/1.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/2.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/3.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/4.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/5.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/6.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/7.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/8.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_lnsl/9.jpeg", "app"),
     ],
     [
       AppStores("华为应用市场", "assets/images/huawei.png",
@@ -672,54 +549,19 @@ ProjectBean lnslPj = ProjectBean(
 //云水利
 ProjectBean yslPj = ProjectBean(
     "云水利",
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/f3c156cc-0caa-44f4-bbeb-8afc368c966a.png",
+    "$hostImgHead/hyrc_ysl/logo.png",
     "完善数据汇总，精准高效，轻松查询。",
     [
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/53af11ed-e5a5-44cc-9591-e20d69392525.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/7fa2f085-f069-4e85-bb37-94d178ec5899.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/59fa9e25-af10-4a63-ad49-2c95ace397ee.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/7764c80d-b963-43ac-9da6-1a4814175368.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/ddbd2dfa-84a4-4a49-ac9b-0ebbeba31678.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/b0b2d23c-866d-48bb-99d8-340c1bef3ff2.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/237df3be-db70-49aa-ba6e-4498370f3cd1.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/8c5ff68c-3a8c-439b-8e47-72860202ec94.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/f567a1ed-d3c3-45d1-9830-c19de5c40e59.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/2900b352-7a9f-4502-adcc-a30cf10eb9da.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/7773fa4b-1eb4-43de-96f0-076ff52394fe.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/fb0264ff-f056-4930-84d2-770d9d616897.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/ed24c818-1c82-4774-96e1-041d522e90c6.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/0c29c876-6c32-4f7c-8fd4-b38d06553bac.jpg",
-          "app"),
-      ScreenBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/0350ed34-2fa0-435c-af6a-36ecc62c1888.jpg",
-          "app")
+      ScreenBean("$hostImgHead/hyrc_ysl/1.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/2.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/3.jpg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/4.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/5.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/6.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/7.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/8.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/9.jpeg", "app"),
+      ScreenBean("$hostImgHead/hyrc_ysl/10.jpeg", "app")
     ],
     [
       AppStores(
@@ -737,6 +579,185 @@ ProjectBean yslPj = ProjectBean(
           "极光推送-统计、bugly版本升级-错误收集、支付宝支付、微信支付、苹果内购支付、分享、PDF阅读、epub阅读、WebView、统计图表"),
       DevInfo("项目依赖：",
           "flutter_bugly、janalytics、flutter_app_installer、flutter_screenutil、pull_to_refresh、dio、webview_flutter、shared_preferences、provider、photo_view、permission_handler、package_info、intl、cached_network_image、cached_network_image、fl_chart、flutter_echarts、path_provider、flutter_cached_pdfview、epub_view、flutter_inappwebview")
+    ]);
+
+//薪满满
+ProjectBean jnmXmm =
+    ProjectBean("薪满满", "$hostImgHead/xmm/logo.png", "一款全新在线帮助商家找人，帮助用户找工作的平台", [
+  ScreenBean("$hostImgHead/xmm/1.jpg", "app"),
+  ScreenBean("$hostImgHead/xmm/2.jpg", "app"),
+  ScreenBean("$hostImgHead/xmm/3.jpg", "app"),
+  ScreenBean("$hostImgHead/xmm/4.jpg", "app"),
+  ScreenBean("$hostImgHead/xmm/5.jpg", "app"),
+  ScreenBean("$hostImgHead/xmm/6.png", "app"),
+  ScreenBean("$hostImgHead/xmm/7.png", "app"),
+  ScreenBean("$hostImgHead/xmm/8.png", "app"),
+  ScreenBean("$hostImgHead/xmm/9.png", "app"),
+  ScreenBean("$hostImgHead/xmm/10.png", "app"),
+  ScreenBean("$hostImgHead/xmm/11.png", "app"),
+  ScreenBean("$hostImgHead/xmm/12.png", "app"),
+  ScreenBean("$hostImgHead/xmm/13.png", "app"),
+  ScreenBean("$hostImgHead/xmm/14.png", "app"),
+  ScreenBean("$hostImgHead/xmm/15.png", "app"),
+  ScreenBean("$hostImgHead/xmm/16.png", "app"),
+  ScreenBean("$hostImgHead/xmm/17.png", "app"),
+  ScreenBean("$hostImgHead/xmm/18.png", "app"),
+  ScreenBean("$hostImgHead/xmm/19.png", "app"),
+  ScreenBean("$hostImgHead/xmm/20.png", "app"),
+  ScreenBean("$hostImgHead/xmm/21.png", "app"),
+  ScreenBean("$hostImgHead/xmm/22.png", "app"),
+  ScreenBean("$hostImgHead/xmm/23.png", "app"),
+], [
+  AppStores("华为应用市场", "assets/images/huawei.png",
+      "https://appgallery.huawei.com/app/C106534693"),
+  AppStores("苹果", "assets/images/appStore.png",
+      "https://apps.apple.com/cn/app/dsoon/id1630094655")
+], """
+    一款全新在线帮助商家找人，帮助用户找工作的平台。
+我要找工作
+【简单高效找到靠谱工作】
+足不出户即可查看附近自己想做的高薪工作，薪资真实可靠、平台担保完工后薪资即可到账。拒绝虚假薪资、虚假职位。
+【时间地点自由 专属职位推荐】
+让你随时随地开赚，自我掌控时间！专属职位订单等你来，只为帮你找到你想做的。更有多重活动，助力收入加成BUF。
+【平台资金担保 安全有保障】
+双方往来资金有平台托管，全程担保双方利益，防止发生交易风险。
+我要招人
+【按需付费 降本增效】
+在线发布职位订单，用多久就招多久。在也不担心花冤枉钱。招不到不收一分钱。
+【智能匹配 在线沟通】
+精准匹配，快速查看。随时随地，直接开聊。
+    """, [
+  DevInfo("开发语言：", "Dart、flutter"),
+  DevInfo("开发工具：", "AndroidStudio、XCode、SVN、Git"),
+  DevInfo("主流功能：",
+      "极光推送-统计、bugly版本升级-错误收集、支付宝支付、微信支付、苹果内购支付、分享、腾讯IM、阿里实名认证、手机号一键登录、高德地图、阿里OSS、友盟统计、相机"),
+  DevInfo("项目依赖：",
+      "ali_auth、amap_flutter_map、ali_auth_person、aliyun_oss_flutter、tobias、decimal、jpush_flutter、flutter_local_notifications、umeng_common_sdk、in_app_purchase、flutter_easyloading、cached_network_image、flutter_screenutil、pull_to_refresh、dio、webview_flutter、shared_preferences、camera、photo_view、permission_handler、package_info、intl、cached_network_image、cached_network_image、flutter_inappwebview、")
+]);
+
+//蜂鸟水印相机
+ProjectBean jnmFnsyxj =
+    ProjectBean("蜂鸟水印相机", "$hostImgHead/fnsyxj/log.png", "时间地点防篡改，高效管理远程工作", [
+  ScreenBean("$hostImgHead/fnsyxj/1.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/2.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/3.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/4.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/5.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/6.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/7.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/8.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/9.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/10.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/11.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/12.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/13.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/14.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/15.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/16.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/17.png", "app"),
+  ScreenBean("$hostImgHead/fnsyxj/18.png", "app")
+], [
+  //
+  AppStores("蒲公英", "assets/images/ic_pgy.png", "https://www.pgyer.com/Jr7I"),
+  AppStores("华为应用市场", "assets/images/huawei.png",
+      "https://appgallery.huawei.com/app/B1232845791"),
+  AppStores("苹果", "assets/images/appStore.png",
+      "https://apps.apple.com/cn/app/dsoon/id1613304557")
+], """
+    蜂鸟水印相机，简洁 好用 智能
+适用场景以及行业：
+【适用场景】
+工作实时记录拍照、现场取证、团队协作管理、团队日报、考勤统计、外勤拍照打卡、品牌宣传、会议记录等场景。
+【适用行业】
+酒店保洁、家政维修、安防安保、房产租售买卖、执勤巡逻、餐饮、零售、快递物流等行业
+产品功能介绍：
+【极简水印类型】
+时间、地点、天气、特色等。
+【高效团队管理】
+手机端随时随地轻松管理团队的拍照打卡记录，自由查看每个团队每个人的工作记录。管理者可以创建多个团队同时管理。团队实时在线协作。
+【AI人脸核验】
+智能打卡、云端存储 可以支持人脸核验。
+【个性化工作记录】
+每张照片及视频都可以备注不同的信息，方便及时记录备注。满足不同场景不同行业个性化备注。
+【服务理念】
+简单实用的功能、高效工作记录、智能安全可靠。用心服务好每一个使用产品的用户。
+    """, [
+  DevInfo("开发语言：", "Dart、flutter"),
+  DevInfo("开发工具：", "AndroidStudio、XCode、SVN、Git"),
+  DevInfo("主流功能：", "极光推送-统计、bugly版本升级-错误收集、阿里实名认证、手机号一键登录、阿里OSS、友盟统计、相机"),
+  DevInfo("项目依赖：",
+      "ali_auth、ali_auth_person、aliyun_oss_flutter、jpush_flutter、flutter_local_notifications、umeng_common_sdk、flutter_easyloading、cached_network_image、flutter_screenutil、pull_to_refresh、dio、webview_flutter、camera、photo_view、permission_handler、package_info、intl、cached_network_image、cached_network_image、flutter_inappwebview、")
+]);
+
+//蓝职通|宜开工
+ProjectBean lzt_ykg = ProjectBean(
+    "蓝职通|宜开工",
+    "$hostImgHead/lzt_ykg/logo.png",
+    '一款服务中小招聘商家的人力资源工具|一款为求职者提供工作信息服务的产品',
+    [
+      ScreenBean("$hostImgHead/lzt_ykg/1.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/2.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/3.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/4.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/5.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/6.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/7.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/8.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/9.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/10.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/11.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/12.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/13.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/14.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/15.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/15.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/17.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/18.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/19.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/20.png", "app"),
+      ScreenBean("$hostImgHead/lzt_ykg/21.png", "app"),
+    ],
+    [
+      AppStores("小程序", "assets/images/miniPro.png",
+          "weixin://#小程序://蓝职通/YT8SVCIK6LKwbnK")
+    ],
+    '   一款服务中小招聘商家的人力资源工具|一款为求职者提供工作信息服务的产品。',
+    [
+      DevInfo("开发语言：", "Vue"),
+      DevInfo("开发工具：", "HBuilder、微信开发者工具"),
+      DevInfo("主流功能：", "微信扫码"),
+      DevInfo("项目依赖：", "vant、wx-api、腾讯地图")
+    ]);
+
+//技能猫商家端|薪满满开工版
+ProjectBean jnm_xmm = ProjectBean(
+    "技能猫商家端|薪满满开工版",
+    "$hostImgHead/jnm_xmm/logo.png",
+    '一款服务酒店商家的人力资源工具|一款为酒店兼职保洁提供工作信息服务的产品',
+    [
+      ScreenBean("$hostImgHead/jnm_xmm/1.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/2.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/3.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/4.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/5.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/6.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/7.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/8.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/9.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/10.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/11.png", "app"),
+      ScreenBean("$hostImgHead/jnm_xmm/12.png", "app"),
+    ],
+    [
+      AppStores("小程序", "assets/images/miniPro.png",
+          "weixin://#小程序://技能猫商家端/6uPmHQu3wBQz4Ju")
+    ],
+    '   酒店客房清洁，就找技能猫！首单优惠进行中！商家一件下单，大姐秒接单！覆盖205星级酒店。专业培训，专业服务，高效质保更贴心。',
+    [
+      DevInfo("开发语言：", "Vue"),
+      DevInfo("开发工具：", "HBuilder、微信开发者工具"),
+      DevInfo("主流功能：", "微信扫码"),
+      DevInfo("项目依赖：", "vant、wx-api、腾讯地图")
     ]);
 
 //项目经历bean

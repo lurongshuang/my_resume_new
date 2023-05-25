@@ -30,8 +30,7 @@ String icpName = "京ICP备2021039417";
 //京IPC备案跳转地址
 String icpUrl = "https://beian.miit.gov.cn/";
 //公安备案图标
-String beiAnIcon =
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/8976b999-c4f5-4b1b-9178-b9432d1f139f.png";
+String beiAnIcon = "https://www.beian.gov.cn/img/new/gongan.png";
 //公安备案
 String beiAnName = "京公网安备 11011102001813号";
 //公安备案跳转地址

@@ -1,5 +1,3 @@
-
-
 import 'package:my_resume/generated/l10n.dart';
 import 'package:my_resume/main.dart';
 
@@ -93,10 +91,12 @@ String get manageSkill_5 =>
 String get manageName =>
     S.of(navigatorKey!.currentState!.overlay!.context)!.manageName;
 
+const String hostImgHead = "http://baichao.jdysoft.cn/lrs_files/skill/";
+
 List<SkillBean> get skillList => [
       SkillBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/b5933353-8566-4ceb-8de6-4992a37bcde7.gif",
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/534ceba7-beec-45c6-81cf-f4ef29be34da.png",
+          "$hostImgHead/flutter_bg.gif",
+          "$hostImgHead/ic_flutter.png",
           "Flutter",
           [
             flutterSkill_1,
@@ -106,12 +106,12 @@ List<SkillBean> get skillList => [
             flutterSkill_5,
             flutterSkill_6,
           ],
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/534ceba7-beec-45c6-81cf-f4ef29be34da.png",
+          "$hostImgHead/ic_flutter.png",
           "Flutter",
           "$flutterSkill_1，$flutterSkill_2，$flutterSkill_3，$flutterSkill_4，$flutterSkill_5，$flutterSkill_6"),
       SkillBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/f97147a2-6f1b-4b3c-a74a-0357f72cedfd.gif",
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/71bb8445-64ca-4694-940b-6b4a074e1a75.png",
+          "$hostImgHead/gir_bg.gif",
+          "$hostImgHead/ic_android_bg.png",
           "Android",
           [
             androidSkill_1,
@@ -122,12 +122,12 @@ List<SkillBean> get skillList => [
             androidSkill_6,
             androidSkill_7,
           ],
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/71bb8445-64ca-4694-940b-6b4a074e1a75.png",
+          "$hostImgHead/ic_android_bg.png",
           "Android",
           "$androidSkill_1，$androidSkill_2，$androidSkill_3，$androidSkill_4，$androidSkill_5，$androidSkill_6，$androidSkill_7"),
       SkillBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/eb6efa6e-1a42-4b16-a901-68003c36388c.gif",
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/06834d10-1cf6-463b-82ed-0f8a13580e65.png",
+          "$hostImgHead/java_bg.gif",
+          "$hostImgHead/ic_java.png",
           "Java",
           [
             javaSkill_1,
@@ -135,12 +135,12 @@ List<SkillBean> get skillList => [
             javaSkill_3,
             javaSkill_4,
           ],
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/06834d10-1cf6-463b-82ed-0f8a13580e65.png",
+          "$hostImgHead/ic_java.png",
           "Java",
           "$javaSkill_1，$javaSkill_2,$javaSkill_3,$javaSkill_4"),
       SkillBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/2bbd5337-9f19-4a21-8d3d-6b7be096c637.gif",
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c410b667-5889-4438-8f7a-a6298fe1ac31.png",
+          "$hostImgHead/web_bg.gif",
+          "$hostImgHead/ic_vue.png",
           "Web",
           [
             vueSkill_1,
@@ -151,12 +151,12 @@ List<SkillBean> get skillList => [
             vueSkill_6,
             vueSkill_7
           ],
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/c410b667-5889-4438-8f7a-a6298fe1ac31.png",
+          "$hostImgHead/ic_vue.png",
           "Web",
           "$vueSkill_1，$vueSkill_2，$vueSkill_3，$vueSkill_4，$vueSkill_5，$vueSkill_6，$vueSkill_7"),
       SkillBean(
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/1ce7bd9d-50e8-4fd8-b733-ff842c926d94.gif",
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/b2a80a5a-35fd-4b83-8501-4ed00834ed18.png",
+          "$hostImgHead/manager_bg.gif",
+          "$hostImgHead/ic_manager.png",
           S.of(navigatorKey!.currentState!.overlay!.context)!.manageName,
           [
             manageSkill_1,
@@ -165,7 +165,7 @@ List<SkillBean> get skillList => [
             manageSkill_4,
             manageSkill_5
           ],
-          "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/b2a80a5a-35fd-4b83-8501-4ed00834ed18.png",
+          "$hostImgHead/ic_manager.png",
           S.of(navigatorKey!.currentState!.overlay!.context)!.manageName,
           "$manageSkill_1，$manageSkill_2，$manageSkill_3，$manageSkill_4，$manageSkill_5")
     ];

@@ -35,9 +35,9 @@ List<String> get tagList => [
       S.of(navigatorKey.currentState!.overlay!.context)!.WorkSeriously,
       S.of(navigatorKey.currentState!.overlay!.context)!.GoodAtCommunication
     ];
+const String hostImgHead = "http://baichao.jdysoft.cn/lrs_files/project_img";
 
-String get myHeadUrl =>
-    "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2243c45a-8403-4ee4-8a56-a7a20bd7f54e/31141195-87dc-4e92-8d39-4e16e20e0084.jpg";
+String get myHeadUrl => "$hostImgHead/my_header/logo.jpeg";
 
 class UserTag {
   String title;

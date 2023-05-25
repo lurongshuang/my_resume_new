@@ -3,7 +3,7 @@ import 'package:my_resume/data/project_data.dart';
 
 /////////////////////////////////////////公司信息/////////////////////////////////////////
 
-List<WorkDelBean> listWorks = [hyrcWorkDel, sjjzWorkDel];
+List<WorkDelBean> listWorks = [jnmWorkDel, hyrcWorkDel, sjjzWorkDel];
 
 //世纪金证详情信息
 WorkDelBean sjjzWorkDel = WorkDelBean(
@@ -74,10 +74,49 @@ WorkDelBean hyrcWorkDel = WorkDelBean(
       "经营范围     技术开发、技术推广、技术转让、技术咨询、技术服务；计算机技术培训；计算机系统服务、数据处理、计算机维修；基础软件服务、应用软件服务。(企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。)"
     ],
     "北京市 房山区 长阳",
-    "2018年5月至今",
+    "2018年5月2022年4月",
     "担任移动开发工程师");
 
+//北京技能猫信息技术有限公司
+WorkDelBean jnmWorkDel = WorkDelBean(
+    "技能猫",
+    "assets/images/work/jnm_logo.jpg",
+    "天使轮",
+    "20-99人",
+    "在线教育",
+    "上午10：00-下午07：00",
+    "双休",
+    "偶尔加班",
+    [
+      TreatmentBean("五险一金", Icons.account_balance_outlined),
+      TreatmentBean("年终奖", Icons.wallet_membership_outlined),
+      TreatmentBean("股票期权", Icons.monetization_on),
+      TreatmentBean("带薪年假", Icons.wallet_travel),
+      TreatmentBean("员工旅游", Icons.wallet_giftcard_outlined),
+      TreatmentBean("免费班车", Icons.directions_bus_rounded)
+    ],
+    "assets/images/work/jnm_bg.png",
+    "北京市朝阳区酒仙桥路13号148号楼3层357",
+    "北京技能猫信息技术有限公司，是由58同城集团孵化的互联网公司，总部位于北京。目前在济南、杭州、合肥设立分公司\n"
+        "口依托58同城、58家政的招聘和服务能力，技能猫建立了完善的酒店客房清洁业务、家政业务以及灵活用工业务等。\n"
+        "技能猫致力于打造全国最高标准的客房清洁服务，同时降低酒店招聘、管理等用工成本和风险，解决酒店运营过程中招人难、管理难、用人难的问题。同时，公司技术团队也有自主研发的微信小程序：薪满满、蓝职通、宜开工等\n"
+        "自2020年9月成立至今，我们已为超过300家中高端酒店提供客房清洁服务，管理房间超30000间，拥有近2000八的客房清洁团队，并100%通过客房清洁技能考核。\n"
+        "我们的业务目前已经覆盖杭州、合肥和济南，预计2021年服务将覆盖10个城市，2022年覆盖30个城市。",
+    [
+      "公司全称     北京技能猫信息技术有限公司",
+      "信用代码     91110105MA01W5WD6D",
+      "法定代表     郭义",
+      "注册资本     127.3973万(元)",
+      "成立日期     2020-09-24",
+      "企业类型     有限责任公司(自然人投资或控股)",
+      "经营范围     一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；组织文化艺术交流活动；计算机系统服务；教育咨询服务（不含涉许可审批的教育培训活动）；广告制作；广告设计、代理；软件开发；企业管理咨询；市场营销策划；建筑物清洁服务；专业保洁、清洗、消毒服务；家政服务；会议及展览服务；针纺织品及原料销售；日用百货销售；钟表销售；眼镜销售（不含隐形眼镜）；鞋帽零售；服装服饰零售；厨具卫具及日用杂品零售；化妆品零售；箱包销售。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：网络文化经营；互联网信息服务；职业中介活动；涉外调查。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）（不得从事国家和本市产业政策禁止和限制类项目的经营活动。）"
+    ],
+    "北京市 朝阳区 酒仙桥",
+    "2022年4月至今",
+    "担任Flutter开发工程师");
 List<ComPro> comInfoList = [
+  ComPro("北京技能猫信息技术有限公司", "assets/images/work/jnm_logo.jpg",
+      [jnmXmm, jnmFnsyxj, jnm_xmm, lzt_ykg]),
   ComPro("北京宏宇睿晨信息技术有限公司", "assets/images/work/hyrc_logo.png", [
     yslPj,
     lnslPj,
@@ -88,8 +127,10 @@ List<ComPro> comInfoList = [
     kstPj,
     slzypxPj,
     slzjtjPj,
-    //
-    sxeGPj, bcPj, sgbjPj, fFenPj
+    sxeGPj,
+    bcPj,
+    sgbjPj,
+    fFenPj
   ]),
   ComPro("北京世纪金政信息技术股份有限公司", "assets/images/work/sjjz_logo.png",
       [bjgjwPj, djxxhPj, msxPj, hdxPj, hkwxpPj]),
