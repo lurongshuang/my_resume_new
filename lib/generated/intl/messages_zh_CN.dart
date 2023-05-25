@@ -48,7 +48,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "flutterSkill_6" : MessageLookupByLibrary.simpleMessage("有Android原生开发经验，iOS方面，Swift语言也正在学习过程中。"),
     "height" : MessageLookupByLibrary.simpleMessage("身高"),
     "honesty" : MessageLookupByLibrary.simpleMessage("诚实守信"),
-    "introduce" : MessageLookupByLibrary.simpleMessage("   从事移动应用开发岗位约5年时间，熟练使用Java、Vue、Flutter开发手机端应用。"),
+    "introduce" : MessageLookupByLibrary.simpleMessage("   从事移动应用开发岗位约6年时间，熟练使用Java、Vue、Flutter开发手机端应用。"),
     "javaSkill_1" : MessageLookupByLibrary.simpleMessage("有良好的JAVA语言基础，以及面向对象思想。"),
     "javaSkill_2" : MessageLookupByLibrary.simpleMessage("熟悉服务端开发流程。"),
     "javaSkill_3" : MessageLookupByLibrary.simpleMessage("熟悉MySQL等常用数据库的使用。"),
