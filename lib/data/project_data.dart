@@ -5,7 +5,7 @@ ProjectBean myResumePj = ProjectBean(
     "$hostImgHead/my_header/logo.jpeg",
     '展示我的简历',
     [],
-    [AppStores("H5", "assets/images/ic_pgy.png", "https://www.pgyer.com/0RWP")],
+    [AppStores("H5", "assets/images/ic_pgy.png", "https://www.pgyer.com/RpBxDR")],
     '   展示我的简历',
     [
       DevInfo("开发语言：", "Dart、flutter"),
